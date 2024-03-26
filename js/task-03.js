@@ -24,6 +24,6 @@ const galleryItemsMarkup = images
     return itemMarkup;
   })
   .join("");
-console.log("galleryItemsMarkup:", galleryItemsMarkup);
+// console.log("galleryItemsMarkup:", galleryItemsMarkup);
 
 galleryListRef.insertAdjacentHTML("afterbegin", galleryItemsMarkup);
